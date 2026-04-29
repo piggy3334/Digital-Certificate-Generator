@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(npx --yes create-vite@latest . --template react)",
+      "Read(//c/Users/admin/Desktop/**)",
+      "Bash(npx --yes create-vite@latest cert-gen --template react)",
+      "Bash(cp -r \"/c/Users/admin/Desktop/cert-gen/\"* \"/c/Users/admin/Desktop/电子证书排版/\")",
+      "Bash(rm -rf \"/c/Users/admin/Desktop/cert-gen\")",
+      "Bash(npm install *)",
+      "Bash(npx vite *)",
+      "Bash(npx playwright *)",
+      "Bash(node test-app.mjs)",
+      "Bash(npm run *)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git rm *)",
+      "Bash(git reset *)"
+    ]
+  }
+}
